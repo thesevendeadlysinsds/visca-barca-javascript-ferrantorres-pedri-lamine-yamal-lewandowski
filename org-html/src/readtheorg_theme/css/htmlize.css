@@ -1,0 +1,59 @@
+/* ==========================================================================
+   HTMLIZE.CSS - Réorganisé par catégories
+   ========================================================================== */
+
+/* --- 1. COLORATION SYNTAXIQUE (Code Source) --- */
+.org-keyword           { color: #b057fe; font-weight: bold; } /* if, else, def, return */
+.org-string            { color: #ff4b4b; font-weight: bold;}                    /* "chaînes de caractères" */
+.org-comment           { color: #2b8100; font-style: italic; } /* // commentaires */
+.org-comment-delimiter { color: #2b8100; font-style: italic; } /* /* */
+.org-function-name     { color: rgb(62, 123, 255); font-weight: bold;}                       /* nom de fonction */
+.org-variable-name     { color: rgb(123, 237, 250);}                       /* nom de variable */
+.org-constant          { color: #0066ff; font-weight: bold;}                    /* NULL, TRUE, 10 */
+.org-type              { color: #f2b600;}                    /* int, char, float */
+.org-builtin           { color: #7a378b; font-weight: bold;}                    /* fonctions natives */
+.org-preprocessor      { color: #ff0000; font-weight: bold;}                    /* #include, import */
+.org-doc               { color: #8b2252; font-weight: bold;}                    /* documentation style */
+
+/* --- 2. STRUCTURE DU DOCUMENT ORG --- */
+.org-org-document-title { color: #191970; font-size: 144%; font-weight: bold; }
+.org-org-document-info  { color: #191970; }
+.org-org-meta-line      { color: #b22222; } /* Lignes #+TITLE, #+AUTHOR */
+.org-org-table          { color: #0000ff; } /* Tableaux */
+.org-org-quote          { color: #7f7f7f; } /* Blocs de citation */
+
+/* --- 3. NIVEAUX DE TITRES (Headlines) --- */
+.org-org-level-1 { color: #0000ff; }
+.org-org-level-2 { color: #a0522d; }
+.org-org-level-3 { color: #a020f0; }
+.org-org-level-4 { color: #b22222; }
+.org-org-level-5 { color: #228b22; }
+
+/* --- 4. FORMATAGE DU TEXTE --- */
+.org-bold         { font-weight: bold; }
+.org-italic       { font-style: italic; }
+.org-underline    { text-decoration: underline; }
+.org-org-code     { color: #7f7f7f; } /* texte entre ~code~ */
+.org-org-verbatim { color: #7f7f7f; } /* texte entre =verbatim= */
+
+/* --- 5. LIENS --- */
+.org-link         { color: #0000ff; text-decoration: underline; }
+.org-link-visited { color: rgb(100, 0, 100); text-decoration: underline; }
+
+/* --- 6. TODO, CHECKBOXES ET ÉTATS --- */
+.org-org-todo { color: #ff0000; font-weight: bold; } /* TODO */
+.org-org-done { color: #228b22; font-weight: bold; } /* DONE */
+.org-org-checkbox { font-weight: bold; }
+.org-org-checkbox-statistics-done { color: #228b22; font-weight: bold; } /* [X] */
+.org-org-checkbox-statistics-todo { color: #ff0000; font-weight: bold; } /* [ ] */
+
+/* --- 7. BLOCS DE CODE (Conteneurs) --- */
+.org-org-block            { color: #7f7f7f; } /* Contenu du bloc */
+.org-org-block-begin-line { color: #b22222; } /* #+BEGIN_SRC */
+.org-org-block-end-line   { color: #b22222; } /* #+END_SRC */
+
+/* --- 8. INTERFACE ET OUTILS (Divers) --- */
+.org-warning { color: #ff0000; font-weight: bold; }
+.org-highlight { background-color: #b4eeb4; }
+.org-fringe    { background-color: #f2f2f2; }
+.org-trailing-whitespace { background-color: #ff0000; }
