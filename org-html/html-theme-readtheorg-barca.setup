@@ -22,6 +22,8 @@
 
 #+TITLE: C'est quoi le JavaScript
 
+#+HTML_HEAD: <link rel="icon" type="image/png" href="https://thesevendeadlysinsds.github.io/visca-barca-javascript-ferrantorres-pedri-lamine-yamal-lewandowski/org-html/src/readtheorg_theme/img/JavaScript.png">
+
 Usage: Optionally place these macros after including this file, before your content.
 
 - {{{enable-search}}} :: Enable search bar (default)
