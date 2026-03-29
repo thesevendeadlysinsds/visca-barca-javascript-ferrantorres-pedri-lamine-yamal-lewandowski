@@ -1,0 +1,74 @@
+/* -*- mode: css -*- */
+
+/* read-the-org search styles, v1.6 */
+
+#search-container {
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: #2980B9;
+  border-bottom: 5px solid #343131;
+  display: none;
+}
+
+#search-input {
+  width: 100%;
+  padding: 5px;
+  border: 3px solid #000000;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+#search-results {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#search-results::-webkit-scrollbar {
+  width: 10px;
+}
+
+#search-results::-webkit-scrollbar-track {
+  background: rgb(41 128 185); 
+  border: 2px solid black;
+}
+
+#search-results::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255); 
+  border: 2px solid black;
+}
+
+#search-results::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+
+#search-results li {
+  background-color: #2980B9;
+  color: white;
+  margin-bottom:5px;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+#search-results li:hover {
+  background-color: #3091d1;
+}
+
+#search-description {
+  color: #ffffff; /* Lighter color, matching the TOC text color in readtheorg.css */
+  font-weight: 400;
+  font-size: 13px;
+  margin: 5px;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}
