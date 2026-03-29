@@ -20,6 +20,8 @@
 
 * Search Configuration (v1.12)                                        :noexport:
 
+#+TITLE: C'est quoi le JavaScript
+
 Usage: Optionally place these macros after including this file, before your content.
 
 - {{{enable-search}}} :: Enable search bar (default)
